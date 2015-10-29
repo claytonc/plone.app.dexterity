@@ -35,10 +35,27 @@ msgstr ""
 msgid "Adds a title and description"
 msgstr ""
 
+#: ../behaviors/configure.zcml:36
 msgid "Adds creator, contributor, and rights fields"
 msgstr ""
 
+#: ../behaviors/configure.zcml:29
+msgid "Adds effective date and expiration date fields."
+msgstr ""
+
+#: ../behaviors/configure.zcml:22
+msgid "Adds keywords and language fields."
+msgstr ""
+
 msgid "Adds keywords and language setting"
+msgstr ""
+
+#: ../behaviors/configure.zcml:47
+msgid "Adds standard metadata fields (equals Basic metadata + Categorization + Effective range + Ownership)"
+msgstr ""
+
+#: ../behaviors/configure.zcml:15
+msgid "Adds title and description fields."
 msgstr ""
 
 #: ../behaviors/discussion.py:30
@@ -49,9 +66,15 @@ msgstr ""
 msgid "Allow discussion for this content object."
 msgstr ""
 
+#: ../behaviors/discussion.py:93
+msgid "Allow discussion on this item"
+msgstr ""
+
+#: ../behaviors/configure.zcml:79
 msgid "Allow items to be excluded from navigation"
 msgstr ""
 
+#: ../behaviors/configure.zcml:15
 msgid "Allow items to have next previous navigation enabled"
 msgstr ""
 
@@ -62,12 +85,15 @@ msgstr ""
 msgid "Assign an effective and/or expiration date"
 msgstr ""
 
+#: ../behaviors/configure.zcml:56
 msgid "Automatically generate short URL name for content based on its initial title"
 msgstr ""
 
+#: ../behaviors/configure.zcml:63
 msgid "Automatically generate short URL name for content based on its primary field file name"
 msgstr ""
 
+#: ../behaviors/configure.zcml:14
 msgid "Basic metadata"
 msgstr ""
 
@@ -78,6 +104,10 @@ msgstr ""
 
 #: ../browser/behaviors.py:60
 msgid "Behaviors successfully updated."
+msgstr ""
+
+#: ../behaviors/configure.zcml:21
+msgid "Categorization"
 msgstr ""
 
 #: ../browser/types.py:76
@@ -95,6 +125,10 @@ msgstr ""
 msgid "Container"
 msgstr ""
 
+#: ../behaviors/configure.zcml:28
+msgid "Date range"
+msgstr ""
+
 #: ../interfaces.py:56
 msgid "Description"
 msgstr ""
@@ -105,12 +139,14 @@ msgstr ""
 msgid "Dexterity Content Types"
 msgstr ""
 
+#: ../behaviors/configure.zcml:46
 msgid "Dublin Core metadata"
 msgstr ""
 
 msgid "Effective range"
 msgstr ""
 
+#: ../behaviors/configure.zcml:105
 msgid "Enable next previous navigation for all items of this type"
 msgstr ""
 
@@ -130,6 +166,7 @@ msgstr ""
 msgid "Error: root tag must be 'model'"
 msgstr ""
 
+#: ../behaviors/configure.zcml:78
 msgid "Exclude From navigation"
 msgstr ""
 
@@ -148,6 +185,14 @@ msgstr ""
 
 #: ../interfaces.py:69
 msgid "Filter Contained Types"
+msgstr ""
+
+#: ../behaviors/configure.zcml:113
+msgid "Folder Addable Constrains"
+msgstr ""
+
+#: ../behaviors/configure.zcml:123
+msgid "Gives the ability to rename an item from its edit form."
 msgstr ""
 
 #: ../browser/import_types.py:97
@@ -170,21 +215,27 @@ msgstr ""
 msgid "Items of this type will be able to contain other items."
 msgstr ""
 
+#: ../behaviors/configure.zcml:71
 msgid "Make all items of this type a navigation root"
 msgstr ""
 
+#: ../behaviors/configure.zcml:62
 msgid "Name from file name"
 msgstr ""
 
+#: ../behaviors/configure.zcml:55
 msgid "Name from title"
 msgstr ""
 
+#: ../behaviors/configure.zcml:71
 msgid "Navigation root"
 msgstr ""
 
+#: ../behaviors/configure.zcml:104
 msgid "Next previous navigation"
 msgstr ""
 
+#: ../behaviors/configure.zcml:85
 msgid "Next previous navigation toggle"
 msgstr ""
 
@@ -205,6 +256,10 @@ msgstr ""
 msgid "Overview"
 msgstr ""
 
+#: ../behaviors/configure.zcml:35
+msgid "Ownership"
+msgstr ""
+
 #: ../browser/types.py:81
 msgid "Please select a single type to clone."
 msgstr ""
@@ -219,6 +274,10 @@ msgstr ""
 
 #: ../interfaces.py:27
 msgid "Please use only letters, numbers, and the following characters: .-_"
+msgstr ""
+
+#: ../behaviors/configure.zcml:114
+msgid "Restrict the content types that can be added to folderish content"
 msgstr ""
 
 #: ../browser/modeleditor.py:88
@@ -358,5 +417,24 @@ msgstr ""
 
 #: ../browser/import_types.py:64
 msgid "types.xml in archive is invalid."
+msgstr ""
+
+#. Default: Edit field model for
+#: ../browser/modeleditor.pt:21
+msgid "heading_model_edit"
+msgstr ""
+
+#. Default: "This form allows you to directly edit the XML representation of the field list. This makes it possible to add annotations for fieldsets, validation and widgets. See the ${dexterity_xml} Dexterity XML</a> section of the ${dexterity_developer_manual} Dexterity Developer Manual</a> for details."
+#: ../browser/modeleditor.pt:26
+msgid "description_model_edit"
+msgstr ""
+
+#. Default: "Back to the schema editor"
+#: ../browser/modeleditor.pt:37
+msgid "label_back_to_schemaeditor"
+msgstr ""
+
+#: ../browser/modeleditor.pt:55
+msgid "Save"
 msgstr ""
 
